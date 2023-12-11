@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1, h2 {
+  font-family: 'bagel fat one';
+}
+
+.nav-link:hover,
+.btn:hover {
+  color: #F8C000 !important;
+  background-color: #F8C000 !important;
+}
+
+.img-transform:hover, .card-transform:hover {
+  transform: scale(1.05) !important;
+  transition: transform 0.3s ease !important; 
+}
+
+.btn-top:hover {
+  background-color: #020E1B !important;
+  color: white !important;
+}
+
+.counter {
+  font-size: 3rem;
+  color: #F8C000;
+  font-weight: bold;
+}
+
+@media (max-width: 767px) {
+  .card-wrapper, .card {
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 0 !important;
+  }
+}
+
+@media (min-width:758px) and (max-width: 1198px) {
+  .responsive-about {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (min-width:500px) and (max-width: 1199px) {
+  .responsive-text {
+    padding-top: 100px;
+    padding-left: 120px !important;
+  }
+}
+
+@media (min-width: 300px) and (max-width: 500px) {
+  .responsive-text {
+    padding-top: 80px;
+    padding-left: 60px !important;
+  }
+}
