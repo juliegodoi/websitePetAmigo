@@ -8,10 +8,13 @@ h1, h2 {
   font-family: 'bagel fat one';
 }
 
-.nav-link:hover,
-.btn:hover {
+.nav-link:hover {
   color: #F8C000 !important;
+}
+
+.btn:hover {
   background-color: #F8C000 !important;
+  color: black !important;
 }
 
 .img-transform:hover, .card-transform:hover {
@@ -26,8 +29,9 @@ h1, h2 {
 
 .counter {
   font-size: 3rem;
-  color: #F8C000;
+  color:#F8C000;
   font-weight: bold;
+  text-align: center;
 }
 
 @media (max-width: 767px) {
