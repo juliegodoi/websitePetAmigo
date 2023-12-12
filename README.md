@@ -31,4 +31,4 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 <br>
 
-[Acesse o projeto finalizado aqui](https://juliegodoi.github.io/DevLinks/)
+[Acesse o projeto finalizado aqui](https://juliegodoi.github.io/websitePetAmigo/)
