@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1, h2 {
+  font-family: 'bagel fat one';
+}
+
+.nav-link:hover {
+  color: #F8C000 !important;
+}
+
+.btn:hover {
+  background-color: #F8C000 !important;
+  color: black !important;
+}
+
+.btn-top:hover {
+  background-color: #020E1B !important;
+  color: white !important;
+}
+
+.counter {
+  color:#F8C000;
+}
+
+.lazy-section {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 1s ease, transform 0.5s ease;
+}
+
+.lazy-section.loaded {
+  opacity: 1;
+  transform: translateY(0);
+}

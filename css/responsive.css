@@ -1,0 +1,30 @@
+@media (min-width:610px) and (max-width: 1198px) {
+  .responsive-about {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (min-width:500px) and (max-width: 999px) {
+  .responsive-text {
+    padding-top: 100px;
+    padding-left: 120px !important;
+  }
+}
+
+@media (min-width:1000px) and (max-width: 1199px) {
+  .responsive-text {
+    position: absolute;
+    max-width: 500px;
+  }
+  .responsive-homeimg {
+    position: relative;
+  }
+}
+
+@media (min-width: 300px) and (max-width: 500px) {
+  .responsive-text {
+    padding-top: 80px;
+    padding-left: 70px !important;
+  }
+}

@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PetAmigo</title>
+  <link rel="shortcut icon" href="./assets/images/favicon.png" type="image/x-icon">
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <link rel="stylesheet" href="./icons/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/responsive.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bagel+Fat+One&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <!--nav-->
+    <nav class="navbar navbar-expand-lg bg-white shadow" id="top">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+          <img src="./images/nav/PetAmigo-logo.png" alt="Logo PetAmigo" width="200" height="55">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fw-bold gap-2">
+            <li class="nav-item">
+              <a class="nav-link fs-5" style="color: #082848;" href="#about">Sobre</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fs-5" style="color: #082848;" href="#mission">Missão</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fs-5" style="color: #082848;" href="#pets">Pets</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fs-5" style="color: #082848;" href="#feedbacks">Depoimentos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fs-5" style="color: #082848;" href="#contact">Contato</a>
+            </li>
+            <li class="nav-item">
+              <a class="btn btn-outline-dark" style="color: #082848;" role="button">Seja voluntário</a>
+            </li>
+            <li class="nav-item">
+              <a class="btn text-white" style="background-color: #082848;" role="button">Doar</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!--home-->
+    <section class="home d-flex align-items-center h-75 lazy-section" style="background-color: #BED6F6;" id="home">
+      <div class="container">
+        <div class="row d-flex align-items-center">
+          <div class="col-xl-4 responsive-text">
+            <h1 style="color: #082848; font-size: 70px; line-height: 50px;">Adote <br>um amigo</h1>
+            <p class="pb-3 text-black fs-5">Seu melhor companheiro.</p>
+            <a class="btn px-4 text-white" style="background-color: #082848;" href="#pets" role="button">PETS PARA ADOÇÃO <i class="bi bi-chevron-double-down"></i></a>
+          </div>
+          <div class="col-xl-8 d-flex justify-content-end">
+            <img src="./images/home/pets-home.png" width="600" height="316" class="img-fluid responsive-homeimg" alt="cão e gato">
+          </div>
+        </div>
+      </div>
+    </section>
+  </header>
+  
+  <main>
+    <!--about-->
+    <section class="d-flex align-items-center h-100 p-5 bg-white lazy-section" id="about">
+      <div class="container">
+        <div class="row d-flex align-items-center">
+          <div class="col-xl-6">
+            <h2 class="fs-1 pb-4" style="color: #082848;">Sobre</h2>
+            <p class="text-black">Há uma década, a PetAmigo tem se dedicado fervorosamente à adoção responsável de cães e gatos, buscando proporcionar lares amorosos para animais abandonados. Além de ser uma referência nesse compromisso, oferecemos abrigo seguro durante a transição e contamos com uma equipe veterinária dedicada, garantindo o bem-estar integral dos animais sob nossa tutela. Escolher a PetAmigo não apenas significa dar um lar afetuoso a um animal necessitado, mas também apoia serviços cruciais de abrigo e cuidados veterinários, unindo-se a nós em uma jornada de compaixão e responsabilidade.</p>
+            <small class="text-black"><i class="bi bi-geo-alt"></i> Rua Barão do Gravataí, Menino Deus 90050-330 - Porto Alegre/RS
+            <br><i class="bi bi-geo-alt"></i> Rua Escola Técnica de Aviação, Brás 03041-110 - São Paulo/SP</small>
+          </div>
+          <div class="col-xl-6 d-flex justify-content-end responsive-about">
+            <img src="./images/about/about-img.png" class="img-fluid" width="461" height="461" alt="menina abraçando cão e gato">
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--mission-->
+    <section class="d-flex align-items-center h-100 p-5 lazy-section" style="background-color: #F0FBFF;" id="mission">
+      <div class="container">
+        <h2 class="fs-1 text-center pt-3 pb-1" style="color:#082848;">Missão</h2>
+        <div class="row d-flex p-5">
+          <div class="col-xl-4 text-center">
+            <img src="./images/mission/adocao.png" alt="ícone pata de cachorro" class="img-fluid" width="100" height="100">
+            <h3 style="color: #082848;">Adoção</h3>
+            <p class="text-black">Priorizamos a adoção responsável, unindo lares afetuosos a cães e gatos que precisam de um lar.</p>
+          </div>
+          <div class="col-xl-4 text-center">
+            <img src="./images/mission/abrigo.png" alt="ícone casa" class="img-fluid" width="100" height="100">
+            <h3 style="color: #082848;">Abrigo</h3>
+            <p class="text-black">Oferecemos um abrigo acolhedor, proporcionando um ambiente seguro e carinhoso durante a transição dos animais para seus novos lares.</p>
+          </div>
+          <div class="col-xl-4 text-center">
+            <img src="./images/mission/veterinario.png" alt="ícone simbolo médico" class="img-fluid" width="100" height="100">
+            <h3 style="color: #082848;">Veterinário</h3>
+            <p class="text-black">Contamos com uma equipe veterinária comprometida, assegurando o bem-estar completo dos animais sob nossa tutela.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--pets-->
+    <section class="bg-white lazy-section" id="pets">
+      <div class="container">
+        <div class="row">
+          <h2 class="text-center pt-5 pb-3 fs-1" style="color: #082848;">Pets</h2>
+          <p class="text-black text-center fs-5">Confira nossos amigos em busca de um lar:</p>
+          <div class="col-xl-12">
+            <!--carrossel desktop-->
+            <div id="carouselAutoplayingLg" class="carousel carousel-dark slide d-none d-lg-block" data-bs-ride="carouselLg">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class=" pb-5 d-flex justify-content-center">
+                    <div class="card m-2 border-0 shadow p-3 mb-5 bg-body-tertiary rounded" style="width: 18rem;">
+                      <img src="./images/pets/pet-1.png" class="card-img-top" alt="Cachorrinho Carinhoso">
+                      <div class="card-body">
+                        <h5 class="card-title">Carinhoso</h5>
+                        <p class="card-text">1 ano <br> M <br> <i class="bi bi-geo-alt"></i> Porto Alegre - RS</p>
+                      </div>
+                    </div>
+                    <div class="card m-2 border-0 shadow p-3 mb-5 bg-body-tertiary rounded" style="width: 18rem;">
+                      <img src="./images/pets/pet-2.png" class="card-img-top" alt="Gatinha Leal">
+                      <div class="card-body">
+                        <h5 class="card-title">Leal</h5>
+                        <p class="card-text">7 meses <br> F <br> <i class="bi bi-geo-alt"></i> São Paulo - SP</p>
+                      </div>
+                    </div>
+                    <div class="card m-2 border-0 shadow p-3 mb-5 bg-body-tertiary rounded" style="width: 18rem;">
+                      <img src="./images/pets/pet-3.png" class="card-img-top" alt="Cachorrinha Dengosa">
+                      <div class="card-body">
+                        <h5 class="card-title">Dengosa</h5>
+                        <p class="card-text">10 meses <br> F <br> <i class="bi bi-geo-alt"></i> Porto Alegre - RS</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="pb-5 d-flex justify-content-center">
+                    <div class="card m-2 border-0 shadow p-3 mb-5 bg-body-tertiary rounded" style="width: 18rem;">
+                      <img src="./images/pets/pet-4.png" class="card-img-top" alt="Cachorrinho Alegre">
+                      <div class="card-body">
+                        <h5 class="card-title">Alegre</h5>
+                        <p class="card-text">2 anos <br> M <br> <i class="bi bi-geo-alt"></i> São Paulo - SP</p>
+                      </div>
+                    </div>
+                    <div class="card m-2 border-0 shadow p-3 mb-5 bg-body-tertiary rounded" style="width: 18rem;">
+                      <img src="./images/pets/pet-5.png" class="card-img-top" alt="Cachorrinho Risonho">
+                      <div class="card-body">
+                        <h5 class="card-title">Risonho</h5>
+                        <p class="card-text">12 meses <br> M <br> <i class="bi bi-geo-alt"></i> São Paulo - SP</p>
+                      </div>
+                    </div>
+                    <div class="card m-2 border-0 shadow p-3 mb-5 bg-body-tertiary rounded" style="width: 18rem;">
+                      <img src="./images/pets/pet-6.png" class="card-img-top" alt="Gatinho Sábio">
+                      <div class="card-body">
+                        <h5 class="card-title">Sábio</h5>
+                        <p class="card-text">4 anos <br> M <br> <i class="bi bi-geo-alt"></i> Porto Alegre - RS</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="pb-5 d-flex justify-content-center">
+                    <div class="card m-2 border-0 shadow p-3 mb-5 bg-body-tertiary rounded" style="width: 18rem;">
+                      <img src="./images/pets/pet-7.png" class="card-img-top" alt="Gatinha Pequenina">
+                      <div class="card-body">
+                        <h5 class="card-title">Pequenina</h5>
+                        <p class="card-text">5 meses <br> F <br> <i class="bi bi-geo-alt"></i> Porto Alegre - RS</p>
+                      </div>
+                    </div>
+                    <div class="card m-2 border-0 shadow p-3 mb-5 bg-body-tertiary rounded" style="width: 18rem;">
+                      <img src="./images/pets/pet-8.png" class="card-img-top" alt="Cachorrinho Principe">
+                      <div class="card-body">
+                        <h5 class="card-title">Principe</h5>
+                        <p class="card-text">8 meses <br> M <br> <i class="bi bi-geo-alt"></i> São Paulo - SP</p>
+                      </div>
+                    </div>
+                    <div class="card m-2 border-0 shadow p-3 mb-5 bg-body-tertiary rounded" style="width: 18rem;">
+                      <img src="./images/pets/pet-9.png" class="card-img-top" alt="Gatinho Preguiça">
+                      <div class="card-body">
+                        <h5 class="card-title">Preguiça</h5>
+                        <p class="card-text">2 anos <br> F <br> <i class="bi bi-geo-alt"></i> São Paulo - SP</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselAutoplayingLg" data-bs-slide="prev">
+                <span title="Anterior"><i class="bi bi-arrow-left-circle-fill fs-2" style="color: #082848;"></i></span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselAutoplayingLg" data-bs-slide="next">
+                <span title="Próximo"><i class="bi bi-arrow-right-circle-fill fs-2" style="color: #082848;"></i></span></span>
+              </button>
+            </div>
+            <!--carrossel mobile-->
+            <div id="carouselAutoplayingSm" class="carousel carousel-dark slide d-lg-none d-block" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="d-flex justify-content-center">
+                    <div class="card m-2 border-0 shadow p-3 mb-5 bg-body-tertiary rounded" style="width: 18rem;">
+                      <img src="./images/pets/pet-1.png" class="card-img-top" alt="Cachorrinho Carinhoso">
+                      <div class="card-body">
+                        <h5 class="card-title">Carinhoso</h5>
+                        <p class="card-text">1 ano <br> M <br> <i class="bi bi-geo-alt"></i> Porto Alegre - RS</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="d-flex justify-content-center">
+                    <div class="card m-2 border-0 shadow p-3 mb-5 bg-body-tertiary rounded" style="width: 18rem;">
+                      <img src="./images/pets/pet-2.png" class="card-img-top" alt="Gatinha Leal">
+                      <div class="card-body">
+                        <h5 class="card-title">Leal</h5>
+                        <p class="card-text">7 meses <br> F <br> <i class="bi bi-geo-alt"></i> São Paulo - SP</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="d-flex justify-content-center">
+                    <div class="card m-2 border-0 shadow p-3 mb-5 bg-body-tertiary rounded" style="width: 18rem;">
+                      <img src="./images/pets/pet-3.png" class="card-img-top" alt="Cachorrinha Dengosa">
+                      <div class="card-body">
+                        <h5 class="card-title">Dengosa</h5>
+                        <p class="card-text">10 meses <br> F <br> <i class="bi bi-geo-alt"></i> Porto Alegre - RS</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="d-flex justify-content-center">
+                    <div class="card m-2 border-0 shadow p-3 mb-5 bg-body-tertiary rounded" style="width: 18rem;">
+                      <img src="./images/pets/pet-4.png" class="card-img-top" alt="Cachorrinho Alegre">
+                      <div class="card-body">
+                        <h5 class="card-title">Alegre</h5>
+                        <p class="card-text">2 anos <br> M <br> <i class="bi bi-geo-alt"></i> São Paulo - SP</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="d-flex justify-content-center">
+                    <div class="card m-2 border-0 shadow p-3 mb-5 bg-body-tertiary rounded" style="width: 18rem;">
+                      <img src="./images/pets/pet-5.png" class="card-img-top" alt="Cachorrinho Risonho">
+                      <div class="card-body">
+                        <h5 class="card-title">Risonho</h5>
+                        <p class="card-text">12 meses <br> M <br> <i class="bi bi-geo-alt"></i> São Paulo - SP</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="d-flex justify-content-center">
+                    <div class="card m-2 border-0 shadow p-3 mb-5 bg-body-tertiary rounded" style="width: 18rem;">
+                      <img src="./images/pets/pet-6.png" class="card-img-top" alt="Gatinho Sábio">
+                      <div class="card-body">
+                        <h5 class="card-title">Sábio</h5>
+                        <p class="card-text">4 anos <br> M <br> <i class="bi bi-geo-alt"></i> Porto Alegre - RS</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="d-flex justify-content-center">
+                    <div class="card m-2 border-0 shadow p-3 mb-5 bg-body-tertiary rounded" style="width: 18rem;">
+                      <img src="./images/pets/pet-7.png" class="card-img-top" alt="Gatinha Pequenina">
+                      <div class="card-body">
+                        <h5 class="card-title">Pequenina</h5>
+                        <p class="card-text">5 meses <br> F <br> <i class="bi bi-geo-alt"></i> Porto Alegre - RS</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="d-flex justify-content-center">
+                    <div class="card m-2 border-0 shadow p-3 mb-5 bg-body-tertiary rounded" style="width: 18rem;">
+                      <img src="./images/pets/pet-8.png" class="card-img-top" alt="Cachorrinho Principe">
+                      <div class="card-body">
+                        <h5 class="card-title">Principe</h5>
+                        <p class="card-text">8 meses <br> M <br> <i class="bi bi-geo-alt"></i> São Paulo - SP</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="d-flex justify-content-center">
+                    <div class="card m-2 border-0 shadow p-3 mb-5 bg-body-tertiary rounded" style="width: 18rem;">
+                      <img src="./images/pets/pet-9.png" class="card-img-top" alt="Gatinho Preguiça">
+                      <div class="card-body">
+                        <h5 class="card-title">Preguiça</h5>
+                        <p class="card-text">2 anos <br> F <br> <i class="bi bi-geo-alt"></i> São Paulo - SP</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselAutoplayingSm" data-bs-slide="prev">
+                <span title="Anterior"><i class="bi bi-arrow-left-circle-fill display-5" style="color: #082848;"></i></span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselAutoplayingSm" data-bs-slide="next">
+                <span title="Próximo"><i class="bi bi-arrow-right-circle-fill display-5" style="color: #082848;"></i></span></span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--feedbacks-->
+    <section class="lazy-section" style="background-color:#F0FBFF;" id="feedbacks">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-4 pt-5" style="line-height: 20px">
+              <h2 class="text-center mt-3 pt-5 pb-5 fs-1" style="color: #082848;">Depoimentos</h2>
+              <p class="counter fw-bold text-center display-3"><span id="counter">0</span>+</p>
+              <p class="text-black text-center"> animais já encontraram um lar através da PetAmigo.</p>
+          </div>
+          <div class="col-xl-8 text-center pt-5 pb-3">
+            <!--carrossel desktop-->
+            <div id="carouselIndicatorsLg" class="carousel carousel-dark slide d-lg-block d-none">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselIndicatorsLg" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselIndicatorsLg" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="pb-3 d-flex justify-content-center pt-3 gap-3">
+                    <div class="card shadow-sm p-3 mb-5 bg-body-tertiary rounded" style="width: 18rem;">
+                      <div class="card-body">
+                        <img src="./images/feedbacks/depoimento-eduardo.png" alt="Tutor Eduardo Oliveira e amiga Sapeca" width="60" height="60">
+                        <h5 class="card-title">Eduardo Oliveira</h5>
+                        <h6 class="card-subtitle mb-2 text-body-secondary">Tutor da Sapeca</h6>
+                        <p class="card-text">Graças a PetAmigo, agora minha vida é cheia de amor, lambeijos e momentos especiais com minha fiel amiga de quatro patas.</p>
+                        <p style="color: #F8C000;"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></p>
+                      </div>
+                    </div>
+                    <div class="card shadow-sm p-3 mb-5 bg-body-tertiary rounded" style="width: 18rem;">
+                      <div class="card-body">
+                        <img src="./images/feedbacks/depoimento-carla.png" alt="Veterinária Carla e amiga" width="60" height="60">
+                        <h5 class="card-title">Carla Vargas</h5>
+                        <h6 class="card-subtitle mb-2 text-body-secondary">Veterinária voluntária</h6>
+                        <p class="card-text">Cuidar dos animais resgatados na PetAmigo é uma missão gratificante, e estou orgulhosa de fazer parte dessa equipe e projeto inspiradores.</p>
+                        <p style="color: #F8C000;"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="pb-3 d-flex justify-content-center pt-3 gap-3">
+                    <div class="card shadow-sm p-3 mb-5 bg-body-tertiary rounded" style="width: 18rem;">
+                      <div class="card-body">
+                        <img src="./images/feedbacks/depoimento-rita.png" alt="Tutor Eduardo Oliveira e amiga Sapeca" width="60" height="60">
+                        <h5 class="card-title">Rita Azambuja</h5>
+                        <h6 class="card-subtitle mb-2 text-body-secondary">Tutora do Carlinhos</h6>
+                        <p class="card-text">A equipe dedicada tornou possível encontrar meu companheiro, fazendo meu coração transbordar de gratidão.</p>
+                        <p style="color: #F8C000;"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></p>
+                      </div>
+                    </div>
+                    <div class="card shadow-sm p-3 mb-5 bg-body-tertiary rounded" style="width: 18rem;">
+                      <div class="card-body">
+                        <img src="./images/feedbacks/depoimento-antônia.png" alt="Veterinária Carla e amiga" width="60" height="60">
+                        <h5 class="card-title">Antônia Wang</h5>
+                        <h6 class="card-subtitle mb-2 text-body-secondary">Voluntária e tutora do Li</h6>
+                        <p class="card-text">Ser voluntária no abrigo da PetAmigo é uma experiência enriquecedora, e adotar o Li tornou essa jornada ainda mais especial.</p>
+                        <p style="color: #F8C000;"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--carrossel mobile-->
+            <div id="carouselIndicatorsSm" class="carousel carousel-dark slide d-lg-none d-block">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselIndicatorsSm" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselIndicatorsSm" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselIndicatorsSm" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselIndicatorsSm" data-bs-slide-to="3" aria-label="Slide 4"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="d-flex justify-content-center pt-3">
+                    <div class="card shadow-sm p-3 mb-5 bg-body-tertiary rounded" style="width: 18rem;">
+                      <div class="card-body">
+                        <img src="./images/feedbacks/depoimento-eduardo.png" alt="Tutor Eduardo Oliveira e amiga Sapeca" width="60" height="60">
+                        <h5 class="card-title">Eduardo Oliveira</h5>
+                        <h6 class="card-subtitle mb-2 text-body-secondary">Tutor da Sapeca</h6>
+                        <p class="card-text">Graças a PetAmigo, agora minha vida é cheia de amor, lambeijos e momentos especiais com minha fiel amiga de quatro patas.</p>
+                        <p style="color: #F8C000;"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="d-flex justify-content-center pt-3">
+                    <div class="card shadow-sm p-3 mb-5 bg-body-tertiary rounded" style="width: 18rem;">
+                      <div class="card-body">
+                        <img src="./images/feedbacks/depoimento-carla.png" alt="Veterinária Carla e amiga" width="60" height="60">
+                        <h5 class="card-title">Carla Vargas</h5>
+                        <h6 class="card-subtitle mb-2 text-body-secondary">Veterinária voluntária</h6>
+                        <p class="card-text">Cuidar dos animais resgatados na PetAmigo é uma missão gratificante, e estou orgulhosa de fazer parte dessa equipe e projeto inspiradores.</p>
+                        <p style="color: #F8C000;"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="d-flex justify-content-center pt-3">
+                    <div class="card shadow-sm p-3 mb-5 bg-body-tertiary rounded" style="width: 18rem;">
+                      <div class="card-body">
+                        <img src="./images/feedbacks/depoimento-rita.png" alt="Tutor Eduardo Oliveira e amiga Sapeca" width="60" height="60">
+                        <h5 class="card-title">Rita Azambuja</h5>
+                        <h6 class="card-subtitle mb-2 text-body-secondary">Tutora do Carlinhos</h6>
+                        <p class="card-text">A equipe dedicada tornou possível encontrar meu companheiro, fazendo meu coração transbordar de gratidão.</p>
+                        <p style="color: #F8C000;"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="d-flex justify-content-center pt-3">
+                    <div class="card shadow-sm p-3 mb-5 bg-body-tertiary rounded" style="width: 18rem;">
+                      <div class="card-body">
+                        <img src="./images/feedbacks/depoimento-antônia.png" alt="Veterinária Carla e amiga" width="60" height="60">
+                        <h5 class="card-title">Antônia Wang</h5>
+                        <h6 class="card-subtitle mb-2 text-body-secondary">Voluntária e tutora do Li</h6>
+                        <p class="card-text">Ser voluntária no abrigo da PetAmigo é uma experiência enriquecedora, e adotar o Li tornou essa jornada ainda mais especial.</p>
+                        <p style="color: #F8C000;"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--help-->
+    <section class="p-5 bg-white lazy-section">
+      <div class="container">
+          <div class="row">
+            <div class="col-xl-12">
+              <div class="card bg-light border-0 shadow p-3 mb-5 bg-body-tertiary rounded">
+                <div class="card-header text-center" style="color: #082848; font-size: 2rem;">
+                  <i class="bi bi-envelope-exclamation-fill"></i>
+                </div>
+                <div class="card-body text-center">
+                  <h5 class="card-title fs-3" style="color: #082848;">Nós precisamos de ajuda </h5>
+                  <p class="card-text">A PetAmigo precisa da sua ajuda para manter nosso abrigo ativo e continuar proporcionando lares amorosos a cães e gatos abandonados. <br> Contribua com sua doação e faça parte dessa causa. <br> Juntos, podemos fazer a diferença!</p>
+                  <a class="btn text-white" style="background-color: #082848;">Quero doar</a>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+    </section>
+    <!--contact-->
+    <section class="pb-5 lazy-section" style="background-color: #BED6F6;" id="contact">
+      <div class="container">
+        <h2 class="text-center pt-5 pb-3 fs-1" style="color: #082848" >Contato</h2>
+        <p class="text-black text-center fs-5">Quer adotar? Envie-nos uma mensagem</p>
+        <div class="row d-flex align-items-center">
+          <div class="col-xl-6">
+            <form>
+              <div class="mb-3">
+                <input type="text" class="form-control bg-body-secondary border-0" id="exampleInputText1" placeholder="Nome...">
+              </div>
+              <div class="mb-3">
+                <input type="email" class="form-control bg-body-secondary border-0" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email...">
+              </div>
+              <div class="mb-3">
+                <textarea class="form-control bg-body-secondary border-0" id="exampleFormControlTextarea1" rows="3" placeholder="Mensagem..."></textarea>
+              </div>
+              <button type="submit" class="btn text-white" style="background-color: #082848;">Enviar</button>
+            </form>
+          </div>
+          <div class="col-xl-6 d-flex justify-content-center">
+            <img src="./images/contact/pata-contact.png" alt="pata" class="img-fluid" width="300" height="300">
+          </div>
+        </div>
+    </section>
+  </main>
+  <!--footer-->
+  <footer style="background-color: #082848;">
+    <section class="lazy-section">
+      <div class="container">
+        <div class="row pb-4 pt-5">
+          <div class="col-xl-4">
+            <img src="./images/footer/PetAmigo-footer.png" alt="PetAmigo logo" class="img-fluid" width="150" height="25">
+          </div>
+          <div class="col-xl-4 text-center">
+            <a class="btn rounded-circle btn-top" href="#top" role="button" title="Ir para o topo" style="background-color: #F8C000;"><i class="bi bi-arrow-up-short" style="font-size: 1.5rem;"></i></a>
+          </div>
+          <div class="col-xl-4 d-flex justify-content-end align-items-center gap-2">
+            <a class="btn btn-light border-0" href="https://pt-br.facebook.com/" role="button" target="_blank"><i class="bi bi-facebook"></i></a>
+            <a class="btn btn-light border-0" href="https://www.instagram.com/" role="button" target="_blank"><i class="bi bi-instagram"></i></a>
+            <a class="btn btn-light border-0" href="https://www.tiktok.com/explore" role="button" target="_blank"><i class="bi bi-tiktok"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="lazy-section" style="background-color: #020E1B;">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-12 text-center mt-3 mb-1">
+            <p class="text-secondary">&copy; 2023 PetAmigo - Adoção de Animais</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </footer>
+
+  <script src="./js/bootstrap.bundle.min.js"></script>
+  <script src="./js/script.js"></script>
+</body>
+</html> 
