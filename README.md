@@ -2,7 +2,7 @@
 
 <br>
 
-![desktop](https://github.com/juliegodoi/websitePetAmigo/assets/130700163/deb0fb12-1a35-4419-bfe5-0e37aeb81da2)
+![Captura de tela 2024-05-28 152519](https://github.com/juliegodoi/websitePetAmigo/assets/130700163/984e0c9e-3d2d-49ac-ba2a-f888c0fb404c)
 
 
 ## 💻 Projeto
