@@ -23,6 +23,6 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 <br>
 
-<a href="https://github.com/juliegodoi/websitePetAmigo.git" target="_blank">
-  <img src="https://img.shields.io/badge/Acesse%20o%20projeto%20finalizado%20aqui-blue?style=for-the-badge" alt="Acesse o projeto finalizado aqui">
+<a href="https://juliegodoi.github.io/websitePetAmigo/" target="_blank">
+  <img src="https://img.shields.io/badge/Acesse%20o%20projeto%20finalizado%20aqui-red?style=for-the-badge" alt="Acesse o projeto finalizado aqui">
 </a>
